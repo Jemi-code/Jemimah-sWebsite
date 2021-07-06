@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-color: silver;
+  color: #555;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+header {
+  background-color: darkslateblue;
+  color: snow;
+  height: 100px;
+  letter-spacing: 0.3em;
+  padding: 40px;
+}
+
+.header_container h1{
+  padding: 20px;
+  font-size: 40px;
+}
+
+.nav-container{
+  display: block;
+  float: right;
+
+}
+
+.nav-container ul{
+  list-style: none;
+}
+
+.nav-container li{
+  display: inline;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.nav-container a{
+  text-decoration: none;
+  color: snow;
+}
+
+.nav-container a:hover{
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  color: red;
+}
+
+.body_container{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.body_container h1{
+    font-size: 30px;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  margin: 20px 10px 10px 0;
+}
+
+.middle{
+  width: 90%;
+  margin:auto;
+  padding-top: 30px;
+}
+
+.article{
+  float: left;
+  width: 75%;
+  padding: 10px;
+  box-sizing: border-box
+}
+
+.aside_container{
+  float: right;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  border: 1px #555 dotted;
+}
+
+.footer-container{
+  clear: both;
+  background-color: darkslategray;
+  color: snow;
+  padding: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer-container p{
+  display: inline;
+}
+
+.article article{
+  border-bottom: 1px #555 solid;
+}
